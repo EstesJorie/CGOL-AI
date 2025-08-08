@@ -1,11 +1,13 @@
 ## Project Structure
 
+```
 CGOL/
 ├── CMakeLists.txt
 ├── cgol.cpp            #CGOL C++ Source
 ├── cgol.hpp              #CGOL Header File
 ├── CGOL_Bindings.cpp         #pybind11 bindings for Python
 ├── README.md
+```
 
 ---
 
@@ -69,7 +71,9 @@ You will be prompted for four pieces of information:
 4. Content-Type header
 
 Once provided, you can enter prompts like:
+
 > How many generations will the word 'monument' return from the Conway tool?
+
 > Generate 3 random words and tell me the highest Conway score.
 
 Once complete, you can then type exit to quit.
