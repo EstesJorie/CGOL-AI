@@ -3,8 +3,8 @@
 ```
 CGOL/
 ├── CMakeLists.txt
-├── cgol.cpp            #CGOL C++ Source
-├── cgol.hpp              #CGOL Header File
+├── cgol.cpp                  #CGOL C++ Source
+├── cgol.hpp                  #CGOL Header File
 ├── CGOL_Bindings.cpp         #pybind11 bindings for Python
 ├── README.md
 ```
